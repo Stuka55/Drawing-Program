@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>T.png</file>
+        <file>ellipse.png</file>
+        <file>line.png</file>
+        <file>polyline.png</file>
+        <file>rect.png</file>
+        <file>ellipsep.png</file>
+        <file>linep.png</file>
+        <file>polylinep.png</file>
+        <file>rectp.png</file>
+        <file>Tp.png</file>
+        <file>circlep.png</file>
+        <file>squarep.png</file>
+        <file>polygonp.png</file>
+        <file>circle.png</file>
+        <file>square.png</file>
+        <file>polygon.png</file>
+    </qresource>
+</RCC>
