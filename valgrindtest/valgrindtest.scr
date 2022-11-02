@@ -1,0 +1,45 @@
+Script started on Thu 07 May 2020 07:03:18 PM PDT
+]0;cs1c@cs1c-VirtualBox /media/sf_shared/a/valgrindtest[01;32mcs1c@cs1c-VirtualBox[00m [01;34m/media/sf_shared/a/valgrindtest $[00m date
+Thu May  7 19:03:21 PDT 2020
+]0;cs1c@cs1c-VirtualBox /media/sf_shared/a/valgrindtest[01;32mcs1c@cs1c-VirtualBox[00m [01;34m/media/sf_shared/a/valgrindtest $[00m ls -l
+total 13
+-rwxrwx--- 1 root vboxsf  283 May  7 14:06 [0m[01;32mMakefile[0m
+-rwxrwx--- 1 root vboxsf 1080 May  7 19:00 [01;32mvalgrindtest.cpp[0m
+-rwxrwx--- 1 root vboxsf    0 May  7 19:03 [01;32mvalgrindtest.scr[0m
+-rwxrwx--- 1 root vboxsf 5967 May  5 19:03 [01;32mVector.h[0m
+]0;cs1c@cs1c-VirtualBox /media/sf_shared/a/valgrindtest[01;32mcs1c@cs1c-VirtualBox[00m [01;34m/media/sf_shared/a/valgrindtest $[00m make a;;[K[Kll
+g++ -std=c++14 -Wall -g valgrindtest.cpp -o valgrindtest
+]0;cs1c@cs1c-VirtualBox /media/sf_shared/a/valgrindtest[01;32mcs1c@cs1c-VirtualBox[00m [01;34m/media/sf_shared/a/valgrindtest $[00m ls -l
+total 153
+-rwxrwx--- 1 root vboxsf    283 May  7 14:06 [0m[01;32mMakefile[0m
+-rwxrwx--- 1 root vboxsf 141984 May  7 19:03 [01;32mvalgrindtest[0m
+-rwxrwx--- 1 root vboxsf   1080 May  7 19:00 [01;32mvalgrindtest.cpp[0m
+-rwxrwx--- 1 root vboxsf      0 May  7 19:03 [01;32mvalgrindtest.scr[0m
+-rwxrwx--- 1 root vboxsf   5967 May  5 19:03 [01;32mVector.h[0m
+]0;cs1c@cs1c-VirtualBox /media/sf_shared/a/valgrindtest[01;32mcs1c@cs1c-VirtualBox[00m [01;34m/media/sf_shared/a/valgrindtest $[00m valgrind --leak-ches=yes  ./valgrindtest[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kheck=yes  ./valgridntes[K[K[K[K[Kndtest
+==22320== Memcheck, a memory error detector
+==22320== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==22320== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==22320== Command: ./valgrindtest
+==22320== 
+==22320== 
+==22320== HEAP SUMMARY:
+==22320==     in use at exit: 72,704 bytes in 1 blocks
+==22320==   total heap usage: 10 allocs, 9 frees, 80,200 bytes allocated
+==22320== 
+==22320== LEAK SUMMARY:
+==22320==    definitely lost: 0 bytes in 0 blocks
+==22320==    indirectly lost: 0 bytes in 0 blocks
+==22320==      possibly lost: 0 bytes in 0 blocks
+==22320==    still reachable: 72,704 bytes in 1 blocks
+==22320==         suppressed: 0 bytes in 0 blocks
+==22320== Reachable blocks (those to which a pointer was found) are not shown.
+==22320== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==22320== 
+==22320== For counts of detected and suppressed errors, rerun with: -v
+==22320== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;cs1c@cs1c-VirtualBox /media/sf_shared/a/valgrindtest[01;32mcs1c@cs1c-VirtualBox[00m [01;34m/media/sf_shared/a/valgrindtest $[00m exit
+exit
+
+Script done on Thu 07 May 2020 07:04:15 PM PDT
