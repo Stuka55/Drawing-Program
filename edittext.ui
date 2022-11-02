@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditText</class>
+ <widget class="QDialog" name="EditText">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>434</width>
+    <height>307</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Text String</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="textString"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Text  Color</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="textColor">
+     <item>
+      <property name="text">
+       <string>white</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>black</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>red</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>green</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>blue</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>cyan</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>magenta</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>yellow</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>gray</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Text Alignment</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="textAlignment">
+     <item>
+      <property name="text">
+       <string>AlignLeft</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AlignRight</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AlignTop</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AlignBottom</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AlignCenter</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Text Point Size</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QSpinBox" name="textPointSize">
+     <property name="maximum">
+      <number>50</number>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="textFontFamily">
+     <item>
+      <property name="text">
+       <string>Comic Sans MS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Courier</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Helvetica</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Times</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Text Font Family</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QComboBox" name="textFontStyle">
+     <item>
+      <property name="text">
+       <string>StyleNormal</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>StyleItalic</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>StyleOblique</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Text Font Style</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QComboBox" name="textFontWeight">
+     <item>
+      <property name="text">
+       <string>Thin</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Normal</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bold</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>Text Font Weight</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>EditText</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>EditText</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

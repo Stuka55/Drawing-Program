@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>editshape</class>
+ <widget class="QDialog" name="editshape">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>508</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Shape</string>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="0">
+    <widget class="QLabel" name="label_12">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Pen Join</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="2">
+    <widget class="QSpinBox" name="length">
+     <property name="maximum">
+      <number>900</number>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="0">
+    <widget class="QLabel" name="label_18">
+     <property name="text">
+      <string>Radius</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="2">
+    <widget class="QSpinBox" name="width">
+     <property name="maximum">
+      <number>900</number>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QComboBox" name="Penjoin">
+     <item>
+      <property name="text">
+       <string>MiterJoin</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BevelJoin</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RoundJoin</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="16" column="0">
+    <widget class="QLabel" name="label_17">
+     <property name="text">
+      <string>Minor Axis</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>Pen Color</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>Brush Color</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Pen Cap</string>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="2">
+    <widget class="QSpinBox" name="radius">
+     <property name="maximum">
+      <number>900</number>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0">
+    <widget class="QLabel" name="label_14">
+     <property name="text">
+      <string>Length</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="label_11">
+     <property name="text">
+      <string>Initial point Y</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="label_19">
+     <property name="text">
+      <string>End point X</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="2">
+    <widget class="QSpinBox" name="initialY">
+     <property name="maximum">
+      <number>900</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QComboBox" name="PenStyle">
+     <item>
+      <property name="text">
+       <string>SolidLine</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DashLine</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DotLine</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DashDotLine</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DashDotDotLine</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="21" column="0">
+    <widget class="QLabel" name="label_9">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="label_10">
+     <property name="text">
+      <string>Initial point X</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QComboBox" name="Brushstyle">
+     <item>
+      <property name="text">
+       <string>SolidPattern</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>HorPattern</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>VerPattern</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>NoBrush</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="15" column="2">
+    <widget class="QSpinBox" name="majorAxis">
+     <property name="maximum">
+      <number>900</number>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="label_15">
+     <property name="text">
+      <string>Width</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Pen Style</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Pen Width</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0">
+    <widget class="QLabel" name="label_16">
+     <property name="text">
+      <string>Major Axis</string>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="0">
+    <widget class="QLabel" name="label_13">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QComboBox" name="Pencap">
+     <item>
+      <property name="text">
+       <string>FlatCap</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SquareCap</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RoundCap</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Brush Style</string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="2">
+    <widget class="QSpinBox" name="minorAxis">
+     <property name="maximum">
+      <number>900</number>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="2">
+    <widget class="QSpinBox" name="endX">
+     <property name="maximum">
+      <number>900</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QComboBox" name="PenColor">
+     <item>
+      <property name="text">
+       <string>white</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>black</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>red</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>green</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>blue</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>cyan</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>magenta</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>yellow</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>gray</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QComboBox" name="shape">
+     <item>
+      <property name="text">
+       <string>Line</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Polyline</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Polygon</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Rectangle</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Square</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ellipse</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Circle</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Text</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QSpinBox" name="Penwidth">
+     <property name="maximum">
+      <number>20</number>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2">
+    <widget class="QComboBox" name="BrushColor">
+     <item>
+      <property name="text">
+       <string>white</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>black</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>red</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>green</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>blue</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>cyan</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>magenta</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>yellow</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>gray</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="8" column="2">
+    <widget class="QSpinBox" name="initialX">
+     <property name="maximum">
+      <number>900</number>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="2">
+    <widget class="QSpinBox" name="endY">
+     <property name="maximum">
+      <number>900</number>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="2">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLabel" name="label_20">
+     <property name="text">
+      <string>End point Y</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>editshape</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>editshape</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
